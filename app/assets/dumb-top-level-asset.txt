@@ -1,0 +1,6 @@
+dumb ATL3PA (Annoying Top-Level 3rd-Party Asset)
+
+e.g. favicon.ico, google domain verification files, etc.
+
+https://twitter.com/jm3/status/580851509283295232
+

@@ -1,0 +1,14 @@
+{
+  "name": "skel",
+  "version": "0.0.1",
+  "license": "GPL",
+  "ignore": [
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4",
+    "d3": "~3.5.5",
+    "requirejs": "~2.1.16"
+  }
+}

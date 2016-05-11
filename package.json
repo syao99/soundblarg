@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "readme": "FUQ",
   "description": "basic front-end skel",
-  "main": "index.js",
   "dependencies": {
     "gulp": "^3.8.11"
   },

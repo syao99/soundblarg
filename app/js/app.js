@@ -23,7 +23,7 @@ function init_ui() {
         }
       );
       if( window.location.hash )
-        play_sound( window.location.hash.replace( /#/, '' ));
+        play_on_load( window.location.hash.replace( /#/, '' ));
       return;
     }
 
@@ -31,11 +31,11 @@ function init_ui() {
   alert( "You're using a web browser that doesn't support audio. Try Chrome, Safari, or Firefox." );
 }
 
-function play_sound(sound) {
+function play_on_load(sound) {
   if( ! sound ) return;
   // FIXME: handle concurrency: https://stackoverflow.com/questions/28579701/check-if-audio-is-playing-without-html5-tag
-  var audio = $('#' + sound + ' audio');
-  audio[0].play();
+  var audio_div_ref = $('#' + sound + ' audio');
+  audio_div_ref[0].play();
   return;
 }
 

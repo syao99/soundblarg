@@ -28,7 +28,7 @@ function init_ui() {
     }
 
   }
-  //alert( "You're using a web browser that doesn't support audio. Try Chrome, Safari, or Firefox." );
+  alert( "You're using a web browser that doesn't support audio. Try Chrome, Safari, or Firefox." );
 }
 
 function play_sound(sound) {

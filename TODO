@@ -1,3 +1,5 @@
 # TODO
-- hoist up text content from audio in the DOM so buttons have labels
 - handle concurrency like v1 did: https://stackoverflow.com/questions/28579701/check-if-audio-is-playing-without-html5-tag
+
+# DONE! 🚀 🍧 💯 
+- hoist up text content from audio in the DOM so buttons have labels

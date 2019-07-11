@@ -1,8 +1,8 @@
 function init_ui() {
   var format;
   var formats = {
-    mp3: { mime: "audio/mpeg",  ext: "mp3"},
-    wav: { mime: "audio/x-wav", ext: "wav"}
+    "mp3": { mime: "audio/mpeg",  ext: "mp3"},
+    //"wav": { mime: "audio/x-wav", ext: "wav"}
   };
 
   for( var format in formats ) {
@@ -26,7 +26,7 @@ function init_ui() {
       return;
     }
   }
-  alert( "You're using a web browser that doesn't support audio. Try Chrome, Safari, or Firefox." );
+  alert( "You're using a web browser that doesn't support audio. Try Chrome or Firefox." );
 }
 
 function play_sound(sound) {

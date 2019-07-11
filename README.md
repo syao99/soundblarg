@@ -3,6 +3,8 @@ html5-soundboard
 
 Layout cleaned up, made responsive, and content bastardized by github.com/syao99.
 
+Live at https://syao99.github.io/soundblarg/
+
 Finally, your lol-inducing WAVs can be standards compliant! by [@jm3](http://twitter.com/jm3)
 
 ![](http://businesscards.jm3.net/html5-soundboard-logo.png)
